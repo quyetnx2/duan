@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm nhan viên</title>
+    <style>
+        .trai{
+            text-align: left;
+        }
+        .sm{
+            padding-left: 70px;
+        }
+    </style>
+</head>
+<body  style="text-align: center">
+    
+    <h1>Thêm nhân viên</h1>
+    <form action="{%url 'xuly_nhanvien'%}">
+        <table align="center">
+            <tr>
+                <td class="trai">Tên</td>
+                <td><input type="text" id="tennv" name="tennv"> </td>
+            </tr>
+            <tr>
+                <td class="trai">Chức vụ</td>
+                <td><input type="text" id="chucvu" name="chucvu"> </td>
+            </tr>
+            <tr>
+                <td class="trai">Năm sinh</td>
+                <td><input type="text" id="namsinh" name="namsinh"> </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="sm" ><input type="submit" name="them" id="them" value="Thêm"></td>
+            </tr>
+        </table>
+        
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+     background-color: blue;
+     text-align: center;
+     color: yellow;
+     padding-top: 50px;
+    /* background-image: url(../img/background-cong-nghe_035954192.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: center; 
+} */
+}
+.hinhnen{
+    background: url("/static/img/background-cong-nghe_035954192.jpg") 100% 0 no-repeat fixed ;
+    height: 500px;
+    
+}
+.hinhnen1{
+    background: url("/static/img/1.jpg") 100% 0 no-repeat fixed ;
+    height: 500px;
+    color: blue;
+    
+}

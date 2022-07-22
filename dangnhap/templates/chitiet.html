@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <style>
+        .trai{
+            text-align: left;
+        }
+        .sm{
+            padding-left: 100px;
+        }
+    </style>
+</head>
+<body  style="text-align: center">
+    
+    <h1>Cập nhật thông tin</h1>
+    <form action="{%url 'xuly_capnhat'%}">
+        <table align="center">
+            <tr>
+                <td class="trai">Tên đăng nhập</td>
+                <input type="hidden" name ="id_nd" id="id_nd" value="{{nguoi_dung.id}}">
+                <td><input type="text" id="ten" name="ten" value="{{nguoi_dung.ten_dang_nhap}}"> </td>
+            </tr>
+            <tr>
+                <td class="trai">Email</td>
+                <td><input type="email" id="mail" name="mail" value="{{nguoi_dung.email}}"> </td>
+            </tr>
+            <tr>
+                <td class="trai">Mật khẩu</td>
+                <td><input type="password" id="matkhau" name="matkhau" value="{{nguoi_dung.mat_khau}}"> </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="sm" ><input type="submit" name="dk" id="dk" value="Cập nhật"></td>
+            </tr>
+        </table>
+        
+    </form>
+
+</body>
+</html>
