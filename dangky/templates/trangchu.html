@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+    
 </head>
 <body>
-    <img src="img/background-adare-restaurant.jpg" alt="">
+    <div class="img">
+        <img src="{% static 'img/2.jpg' %}" />
+    </div>
+    
     <a href="{{'dangky'}}">Đăng ký</a><br>
     <a href="{{'dangnhap'}}">Đăng nhập</a>
 </body>

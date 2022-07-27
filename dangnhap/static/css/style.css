@@ -1,5 +1,5 @@
 body{
-     background-color: blue;
+     background-color: rgb(34, 158, 57);
      text-align: center;
      color: yellow;
      padding-top: 50px;
@@ -13,10 +13,12 @@ body{
     background: url("/static/img/background-cong-nghe_035954192.jpg") 100% 0 no-repeat fixed ;
     height: 500px;
     
+    
+    
 }
 .hinhnen1{
     background: url("/static/img/1.jpg") 100% 0 no-repeat fixed ;
     height: 500px;
-    color: blue;
+    color: yellow;
     
 }
